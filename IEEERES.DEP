@@ -1,0 +1,24 @@
+# IBM Developer's Workframe/2 Make File Creation run at 09:41:39 on 11/20/92
+
+# Make File Creation run in directory:
+#   D:\DATA\C;
+
+# Assumed INCLUDE environment variable path:
+#   D:\TOOLKT20\C\OS2H;
+#   D:\TOOLKT20\ASM\OS2INC;
+#   D:\DEV\IBMC\INCLUDE;
+#   D:\DEV\PMGUIDE;
+#   C:\IBMCOM\INCLUDE;
+
+
+IEEERES.OBJ:  IEEERES.C  \
+#  {$(INCLUDE);}stdio.h  \
+#  {$(INCLUDE);}os2.h  \
+#  {$(INCLUDE);}ctype.h  \
+#  {$(INCLUDE);}string.h  \
+   {.;$(INCLUDE);}lan_7_c.h  \
+   {.;$(INCLUDE);}lan_1_c.h  \
+   {.;$(INCLUDE);}lan_2_c.h  \
+   {.;$(INCLUDE);}lan_3_c.h  \
+   {.;$(INCLUDE);}lan_6_c.h  \
+   IEEERES.MAK
